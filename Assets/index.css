@@ -1,17 +1,19 @@
 /* Breadcrumb Start  */
 .breadcrumb-container {
-    background-color: 
-    #025add;
+    background-color:
+        #025add;
     color: white;
 }
-.breadcrumb-item{
-    font-size: 20px;
+
+.breadcrumb-item {
+    font-size: 15px;
 }
 
 .breadcrumb a {
     color: white;
     text-decoration: none;
 }
+
 .breadcrumb a:hover {
     text-decoration: underline;
 }
@@ -21,14 +23,14 @@
 /* Cards Start  */
 
 .image-container {
-    overflow: hidden; 
-    width: 100%; 
-    height: auto; 
+    overflow: hidden;
+    width: 100%;
+    height: auto;
 }
 
 .zoom-image {
     width: 100%;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 .image-container:hover .zoom-image {
@@ -36,34 +38,39 @@
 }
 
 
-.color{
+.color {
     background-color: #f8f8f8;
 }
 
-.card{
+.card {
     border: none;
 }
 
-.card-text{
-    color: 
-    #075dde;
+.card-text {
+    font-size: 22px;
+    color:
+        #2e76e3;
     cursor: pointer;
 }
 
-.text{
+.card-text:hover{
+    color: #525252;
+}
+
+.text {
     cursor: text;
     color: #646464;
 }
 
-.card-img-top{
+.card-img-top {
     border-radius: 13px;
 }
 
-.card-body{
+.card-body {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 13px;
-    background-color: 
-    #ffffff;
+    background-color:
+        #ffffff;
 }
 
 /* Cards End  */
